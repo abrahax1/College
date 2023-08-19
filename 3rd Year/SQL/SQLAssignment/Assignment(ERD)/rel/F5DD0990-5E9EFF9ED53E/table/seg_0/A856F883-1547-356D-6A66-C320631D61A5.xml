@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A856F883-1547-356D-6A66-C320631D61A5" name="customers">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>DB6F3D98-0C3A-4B85-75E5-29A6FD3E7971</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_no" id="B40721DF-9715-33FF-7431-331A624DEE3B">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>EC962BF5-D215-AF3D-AC25-3FAA922EDEF1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_name" id="B40145A1-8AC7-67AB-94DD-5E5B539A4144">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>A8E4B815-AFD3-13DE-BE91-A954386ED985</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>04DA3E78-C56B-8B56-26A1-976DFF055039</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="A8EB9DCD-F5BC-BE08-443E-B184EB909E2D">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>CAB542BF-1394-E1ED-86B2-CF59A5B6793F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>04DA3E78-C56B-8B56-26A1-976DFF055039</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28D61854-08C5-4BC2-17B6-C951D5865B56" name="customers_PK">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>79F2407C-92F2-32AC-1B8E-0F0504E66EF6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40721DF-9715-33FF-7431-331A624DEE3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

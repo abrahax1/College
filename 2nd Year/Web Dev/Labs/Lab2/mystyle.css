@@ -1,0 +1,27 @@
+body 
+{
+  background-color: linen;
+}
+
+h1 
+{
+  color: navy;
+
+}
+
+h2
+{
+	color: maroon;
+	margin-left: 20px;
+}
+
+h4
+{
+	margin-left: 40px;
+
+}
+
+p
+{
+	margin-left: 60px;
+}

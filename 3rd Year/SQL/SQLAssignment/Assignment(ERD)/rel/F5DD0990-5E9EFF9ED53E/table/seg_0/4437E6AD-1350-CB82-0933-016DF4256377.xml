@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4437E6AD-1350-CB82-0933-016DF4256377" name="contract">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>EF2FDCBE-11B2-F0A8-555F-725AC59E36E8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contract_no" id="95F078EB-B3C7-AB13-9E76-646C555FBAFE">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>30602560-06B6-ACC6-A29A-B931313BBEAA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="60CBCE3F-A669-F5D2-7692-01662E938A0A">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>06603B44-BF89-3885-CD69-61EBC228CCAB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31725C16-96F2-7108-1294-9CBE13845C1F" name="contract_PK">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>418C9606-3757-3074-8C7D-11D3E83FADDC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95F078EB-B3C7-AB13-9E76-646C555FBAFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

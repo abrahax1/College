@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19306510-AD67-622D-BECB-AC7551BA7C88" name="driver_schedule">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>31CABAA5-46EC-965E-48D9-7E5E5868F725</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="driver_no" id="6B3ED919-B520-9A38-B1D3-9AD0D44750FA">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>E1058273-6DEC-814A-0485-555A788F9B16</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6A3003E-0971-9544-31A6-8691931DD75F" referredColumn="18E74684-D5EF-4332-D096-F2CAE9A708F6"/>
+</associations>
+</Column>
+<Column name="schedule_id" id="B417394C-479B-67A1-A074-082CE2E95645">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>5F5A9E45-8F71-308F-6FD6-94362E0DAF74</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC94CF56-0548-2021-5817-4A9A4B0E32F1" referredColumn="77FC417C-E47E-D545-533C-D76FA77EB9A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9DFB813-7E15-CFD0-8E8E-C0E13AA36750" name="driver_schedule_driver_FK">
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B3ED919-B520-9A38-B1D3-9AD0D44750FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F7B0464-2A2F-64DF-D96B-378CEEB14111" name="driver_schedule_schedule_FK">
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B417394C-479B-67A1-A074-082CE2E95645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

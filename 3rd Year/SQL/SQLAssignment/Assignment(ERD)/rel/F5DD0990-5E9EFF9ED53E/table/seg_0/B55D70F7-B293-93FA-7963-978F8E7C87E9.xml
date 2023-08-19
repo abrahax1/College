@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B55D70F7-B293-93FA-7963-978F8E7C87E9" name="contract_schedule">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>758F29F3-090E-08A9-247E-AFB6D89B563A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="shipment_no" id="2F507315-DE0B-9B8D-07E7-EEE7A2472BE2">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>474510C3-BE5F-AF2B-7A58-27A62BE0E5ED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contract_no" id="A4B37904-0E49-EFA6-DC52-3099F1A4EBA2">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>0B161C40-2619-3799-7CA0-DE7067AADF77</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E74F8D69-A0CA-A7C4-5297-02915182FEA6" referredColumn="95F078EB-B3C7-AB13-9E76-646C555FBAFE"/>
+</associations>
+</Column>
+<Column name="schedule_id" id="4E73108F-CDCD-ED23-2281-473A4285CEC3">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>B1D11E65-C4AC-7E6C-542B-235160237511</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7E383C0-F9DB-3070-B980-881B14344FE6" referredColumn="77FC417C-E47E-D545-533C-D76FA77EB9A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="918727FB-00CC-28F0-1BE9-6E28B989E47B" name="contract_schedule_contract_FK">
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4B37904-0E49-EFA6-DC52-3099F1A4EBA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A97178EF-9504-0D14-F466-CBB92DA3A7D6" name="contract_schedule_schedule_FK">
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E73108F-CDCD-ED23-2281-473A4285CEC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,138 @@
+#Page
+{
+  background-color: whitesmoke;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+body 
+{
+  background-color: lightgray;
+}
+
+P
+{
+  margin-left: 50%;
+  font-size: medium;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2,h3 
+{
+  font-size: x-large;
+  margin-left: 33%;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  color: Green;
+}
+
+h2
+{
+  font-family: "Luminari";
+  margin-left: 40%;
+  font-size: xx-large;
+}
+
+img
+{
+  width: 15%;
+  height: 30%;
+  margin-left: 20%;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+ul, li
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li
+{
+  margin-left: 33%;
+}
+
+table,td,th
+{
+  margin-left: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th 
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align:left;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+th:hover 
+{
+  background-color: darkcyan;
+}
+
+td:hover 
+{
+  background-color: lightgray;
+
+}
+
+tr:nth-child(odd)
+{
+  background-color: lightgray;
+
+}
+
+a:hover, active 
+{
+  color: red;
+}
+
+#buttons
+{
+  margin-left: 20%;
+}
+
+input
+{
+  margin-left: 32%;
+}
+
+#Question
+{
+  margin-left: 15%;
+  margin-right: 45%;
+  color: salmon;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+#Answer
+{
+  /*text-align: center;*/
+  margin-left: 30%;
+  margin-right: 60%;
+  font-weight: bold;
+  color: indianred;
+}
+
+#myDiv1, #myDiv2, #myDiv3
+{
+  display: none;
+}
+
+#swapButton
+{
+  margin-left: 30%;
+}

@@ -1,0 +1,89 @@
+<!--Quick Resume of myself webpage-->
+<!DOCTYPE html>
+<html>
+	<head><meta charset="UTF-8">
+		<link id="Style" rel="stylesheet" href="Professional.css" >
+	</head>
+
+	<body>
+		<section id="Page">
+			<!--Image-->
+			<section>
+				<img src="/Users/abrahamizarra/Desktop/WebDev/Lab1/Abraham.jpg">
+				<a href="https://www.tudublin.ie" target="_blank">
+					<img src="/Users/abrahamizarra/Desktop/WebDev/Lab1/Logo.jpg">
+				</a>
+			</section>
+						
+
+			<div id="subTitles"></div>
+
+			<!--Resume-->
+			<section id="resume" style="margin-right: 35%;"></section>
+			<hr>
+
+			<!--Login-->
+			<section id="Login">
+			<h3>Login</h3>
+				<form id="myForm" method="post" action="/login">
+					<label for="LogEmail">Enter your email</label>
+					<input type="email" name="LogEmail" placeholder="Email" id="LogInput" required></input>
+
+					<label for="Password">Enter your password</label>
+					<input type="password" name="password" placeholder="Password" id="LogInput" required></input>
+
+					<input type="submit" value="Login" id="LogInput"></input>
+					<p>Note: Admin email and password is "Abe@gmail.com" / "Abe123" </p>
+				</form>
+				<hr>
+			</section>
+
+			<!--List resume-->
+			<section id="list"></section>
+			<hr><br>
+
+			<!--Table-->
+			<section id='table'></section>
+			<br><br><hr>
+
+			<!--Buttons-->
+			<section id="buttons">
+				<div id="parent1"></div>
+				<div id="parent2"></div>
+				<div id="parent3"></div>
+				<br><br>
+				<div id="parent4"></div>
+				<br>
+			</section>
+
+			<!--Form-->
+			<section id="form">
+				<form id="myForm" method="post" action="/">
+					<fieldset>
+						<legend>Want to hire me?</legend>
+						<label for="Name">Enter your name</label>
+						<input type="text" name="Name" placeholder="Name" id="formInput" required></input>
+
+						<label for="Email">Enter your email</label>
+						<input type="email" name="Email" placeholder="Email" id="formInput" required></input>
+
+						<label for="Message">Enter your message</label>
+						<textarea rows="4" cols="50" name="Message" placeholder="Message" id="formInput" required></textarea>
+
+						<br>
+						<input type="submit" value="Send message" id="formInput"></input>
+					</fieldset>
+				</form>
+			</section>
+
+		</section>
+
+		<!-- JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="JQuery.js"></script>
+		<script src="button.js"></script>
+
+	</body>
+
+</html>
+

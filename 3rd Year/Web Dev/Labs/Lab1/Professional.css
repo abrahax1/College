@@ -1,0 +1,56 @@
+body 
+{
+  background-color: whitesmoke;
+}
+
+P
+{
+  margin-left: 50%;
+  font-size: medium;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2,h3 
+{
+  margin-left: 44%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: Green;
+}
+
+h2
+{
+  margin-left: 42%;
+  font-size: xx-large;
+}
+
+img
+{
+  width: 260px;
+  height: 200px;
+  margin-left: 20%;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+ul, li
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li
+{
+  margin-left: 650px;
+}
+
+table,td,th
+{
+  margin-left: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  width: 50%;
+}
+
+a:hover, active {color: red;}
+

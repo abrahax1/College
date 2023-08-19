@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86728284-7084-F6F2-A8A3-9E80E0F53967" name="customers_contract">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>BA9A6D83-6779-5771-EF1C-6A4237A9FE2A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_no" id="632CE49C-640E-02C8-B0F6-E72D0A9CD62E">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>62C76163-8B11-1E39-D5BF-0BAC41F8CA6C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F0DDB34-A358-1A49-BD51-5E642A617425" referredColumn="B40721DF-9715-33FF-7431-331A624DEE3B"/>
+</associations>
+</Column>
+<Column name="contract_no" id="0CD83B43-A111-6E83-02E7-07970B946D5F">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>4EDE480E-0324-D1DD-C89B-3FE704EC8F2E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9D87B499-4B46-B2CE-84B3-4DFDD70BB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F44E5FF9-DF97-2E83-1E7A-0C7DAA6D2131" referredColumn="95F078EB-B3C7-AB13-9E76-646C555FBAFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C11A3E2E-E3BB-99FA-387F-0CBC5CDFE632" name="customers_contract_contract_FK">
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CD83B43-A111-6E83-02E7-07970B946D5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6DACC31-F60D-FDE4-89F0-C981450B2668" name="customers_contract_customers_FK">
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="632CE49C-640E-02C8-B0F6-E72D0A9CD62E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

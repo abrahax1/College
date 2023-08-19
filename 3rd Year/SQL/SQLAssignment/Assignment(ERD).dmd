@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Assignment(ERDBEST)" id="9A2CCC08-F43E-4FD7-AB3A-861288F8860F" version="3.5">
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:21:02 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9A2CCC08-F43E-4FD7-AB3A-861288F8860F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="054EC71E-A5D7-CCC7-7F7C-512901BEB144">
+<designStoragePath>/Assignment(Tables)</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

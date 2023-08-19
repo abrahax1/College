@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7E383C0-F9DB-3070-B980-881B14344FE6" containerWithKeyObject="B55D70F7-B293-93FA-7963-978F8E7C87E9" localFKIndex="A97178EF-9504-0D14-F466-CBB92DA3A7D6" name="contract_schedule_schedule_FK">
+<sourceDDLFile>Assignment(Tables).sql</sourceDDLFile>
+<createdBy>abrahamizarra</createdBy>
+<createdTime>2021-11-07 17:22:11 UTC</createdTime>
+<ownerDesignName>Assignment(ERDBEST)</ownerDesignName>
+<importedID>AC6780A6-6D0B-B053-8365-95246C036BD6</importedID>
+<referredTableLongName>schedule</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B91C3A6-F9A1-FE53-BAC6-05622AFA617E</referredTableID>
+<keyObject>1B1A372C-3750-8B50-83C2-1E336B76A264</keyObject>
+<referredKeyID>1B1A372C-3750-8B50-83C2-1E336B76A264</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>schedule_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
