@@ -1,0 +1,48 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #0074d9;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #7fdbff;
+}
+
+.contain-alert {
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center
+  
+}
+
+.contain-alert .error-alert {
+  color: red;
+}
+
+.contain-alert .valid-alert {
+  color: green;
+}

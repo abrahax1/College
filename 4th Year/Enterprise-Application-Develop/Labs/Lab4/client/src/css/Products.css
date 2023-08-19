@@ -1,0 +1,45 @@
+.Products {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.Products a {
+  color: black;
+  text-decoration: none;
+}
+
+.Products a:hover{
+  color: blue;
+}
+
+.Products-link {
+  color: #61dafb;
+}
+
+.ProductList img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  box-shadow: 0px 0px 6px 1px;
+}
+
+.Tab-root:hover {
+  background-color: lightgray;
+}
+
+.Pagination-root .MuiPaginationItem-root:not(.Mui-selected) {
+  color: white;
+}
+
+.MuiInputLabel-root,
+.MuiInput-underline:before,
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  color: white;
+  border-bottom-color: white;
+}
+
+.MuiInputBase-input {
+  color: white;
+}
