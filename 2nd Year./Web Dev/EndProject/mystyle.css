@@ -1,0 +1,207 @@
+img
+{	
+	background-color: black; 
+	padding: 5px;
+	height: 500px;
+	width: 800px;
+}
+
+h1
+{
+	text-shadow: 2px 2px 8px gray;
+	font-weight: bold; 
+	margin-top: -8px; 
+	margin-left: -8px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+ul a
+{
+	color: white;
+	text-shadow: 2px 2px 8px black;
+}
+
+body
+{
+	font-family: "Merriweather",Georgia,serif;
+}
+
+span
+{
+	color: red;
+}
+
+input.inputFAQ 
+{
+	display: none;
+}
+
+label.labelFAQ
+{
+	display: block;    
+	padding: 35px;
+	cursor: pointer;
+	background: darkgray;
+	margin-top: 19px;
+	font-weight: bold;
+
+}
+
+label.labelFAQ:hover 
+{
+	background: gray;
+}
+
+input.inputFAQ + label.labelFAQ + .content2
+{
+	background-color: green;
+	display: none;
+}
+
+input.inputFAQ:checked + label.labelFAQ + .content2
+{
+	position: relative;
+	display: block;
+}
+
+#title
+{
+	color: blue;
+}
+
+.logoImage
+{
+	width: 100px; 
+	height: 100px; 
+	padding: 0px; 
+	position: absolute; 
+	left:25%;
+}
+
+.vertical-menu 
+{
+	position: absolute;
+	top: 12%;
+	left: 10px;
+	width: 300px;
+}
+
+.vertical-menu a 
+{
+	background-color: lightgray;
+	color: black;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.vertical-menu a:hover 
+{
+	background-color: gray;
+}
+
+.vertical-menu a.active 
+{
+	font-weight: bold;
+	background-color: green;
+	color: white;
+}
+
+.content
+{
+	position: absolute;
+    left: 400px;
+    right: 200px;
+    top: 10%;  
+}
+
+.description1
+{
+	position: relative;
+   	float: right;
+   	right: 80px;
+   	border-style: solid;
+   	padding: 20px;
+}
+
+.description2
+{
+	position: relative;
+   	float: right;
+   	right: 80px;
+   	border-style: solid;
+   	padding: 20px;
+}
+
+.description3
+{
+	position: relative;
+   	float: right;
+   	right: 80px;
+   	border-style: solid;
+   	padding: 20px;
+}
+
+.footer
+{
+	text-shadow: 4px 4px 8px black;
+	position: relative; 
+	margin-top: 850px;
+	padding: 20px;
+	text-align: center; 
+	background-color: darkblue; 
+	color: white;
+}
+
+.signUp
+{
+	position: absolute;
+	right: 40%;
+}
+
+.form
+{
+	position: relative; 
+	top: 550px; 
+	border-style: solid; 
+	background-color: lightgray; 
+	color: green;
+}
+
+.content2
+{
+	color: white;
+	padding: 10px 25px;
+}
+
+.button 
+{
+	background-color: green;
+	color: white;
+	padding: 14px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.button:hover 
+{
+	opacity: 0.8;	
+}
+
+.button2
+{
+	position: absolute; 
+	top: 50%; 
+	left: 46%;
+}
+
+.button3
+{
+	position: absolute; 
+	top: 55%; 
+	left: 46%;
+}

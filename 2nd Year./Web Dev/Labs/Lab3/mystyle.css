@@ -1,0 +1,19 @@
+/* text colour */
+h4{color:blue; font:bold;}
+h5{color:blue;}
+h3{font:bold;}
+li{color:blue;}
+
+/* Split the screen*/
+div { width: 40; height: 50; float: left; }
+
+
+ul.dashed 
+{
+  list-style-type: none;
+}
+
+ul.dashed > li:before 
+{
+  content: "-";
+}
