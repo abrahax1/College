@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QuickShift</string>
+    <string name="add_times">Add times</string>
+    <string name="work_times">Work Times</string>
+    <string name="next">Next</string>
+    <string name="number_of_employees">Number of employees</string>
+    <string name="creating_work_shift">Creating work shift</string>
+    <string name="time_to">time_to</string>
+    <string name="work_time_from">work time from</string>
+    <string name="work_time_until">work time until</string>
+    <string name="finish">Finish</string>
+    <string name="main_app">Main app</string>
+    <string name="add_shift">Add Shift</string>
+    <string name="textview">TextView</string>
+    <string name="roll_no">Roll no</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="work_time">Work Time</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">delete all</string>
+    <string name="date">Date</string>
+    <string name="no_data">No data</string>
+
+    <string-array name="numbers">
+        <item>Night?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>
